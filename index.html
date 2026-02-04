@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: plum;
+            width: 320px;
+            padding: 40px 20px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: #e0e0e0;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            margin: 10px 0 5px;
+            color: #1a1a1a;
+            font-size: 24px;
+        }
+
+        .title {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .info-section {
+            text-align: left;
+            display: inline-block;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .info-item {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-item span {
+            margin-right: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn {
+            background-color: #0066ff;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0052cc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="gayathri.jpeg" alt="Gayathri" class="profile-img">
+        
+        <h2>Gayathri</h2>
+        <p class="title">Senior Creative Designer</p>
+
+        <div class="info-section">
+            <div class="info-item">📩gayathri@example.com</div>
+            <div class="info-item">📞 +1 (234) 567-890</div>
+            <div class="info-item">📍 San Francisco, CA</div>
+        </div>
+
+        <div class="button-container">
+            <a href="https://in.linkedin.com/" class="btn">LinkedIn</a>
+            <a href="https://login.arn.wealthelite.in/" class="btn">Portfolio</a>
+            <a href="https://x.com/" class="btn">Twitter</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
